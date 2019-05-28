@@ -47,7 +47,7 @@ a:hover {
 }
 
 .contact-information {
-  border-bottom: 1.5rem solid #b2cf3d;
+  border-bottom: 1.5rem solid #164436;
   padding: 1rem;
 }
 
@@ -146,7 +146,7 @@ a:hover {
       display: grid;
       grid-template-columns: auto auto auto;
       grid-template-rows: auto auto 50% 50%;
-      grid-template-areas: "name name name" "intro intro contact" "skills experience experience" "leader experience experience" "education experience experience";
+      grid-template-areas: "name name name" "intro intro contact" "skills experience experience" "education experience experience";
     }
 
     .name {
