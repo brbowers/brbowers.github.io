@@ -42,16 +42,16 @@ section {
 }
 article {
 	background: var(--negroC);
-  	width: var(--width); 
-  	height: var(--height);
+  width: var(--width); 
+  height: var(--height);
 	overflow: hidden;
 	transition: 1s;
 	-webkit-clip-path: url(#hexa-v);
-	clip-path: url(#hexa-v);
-  	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	        clip-path: url(#hexa-v);
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 	-webkit-filter: drop-shadow(0 0 1px #fff);
-	filter: drop-shadow(0 0 1px #fff);
+	        filter: drop-shadow(0 0 1px #fff);
 }
 
 /* making the honeycomb */
