@@ -118,15 +118,17 @@ figure {
 	font-size: calc(1rem + 1vmin);
 	line-height: 1.2;
 	transition: .75s .05s;
-	hyphens: auto;
-  text-align: center;
+	-webkit-hyphens: auto;
+	    -ms-hyphens: auto;
+	        hyphens: auto;
+  	text-align: center;
 }
 img,
 [class*='svg-icon'] {
 	background: #ccc;
-  min-width: var(--radio);
+  	min-width: var(--radio);
 	min-height: var(--radio);
-	max-widt: var(--width);
+	max-width: var(--width);
 	max-height: var(--height);
 	position: absolute;
 	top: 50%;
